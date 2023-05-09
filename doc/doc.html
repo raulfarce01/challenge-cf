@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentación</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-slate-200 min-h-screen flex flex-col">
+
+    <header class="h-32 flex justify-center items-center w-screen">
+        <a href="#" class="flex justify-center items-center w-fit">
+            <div id="logo" class="w-9/12 flex justify-center items-center lg:w-96">
+                <img src="../assets/imgs/logo.png" alt="Logo CloudFramework" class="w-96">
+            </div>
+        </a>
+    </header>
+    
+    <main class="m-10">
+        <section>
+            <h2 class="font-bold">
+                Visit our website
+            </h2>
+            <div class="flex flex-col">
+                <p class="mb-3">You can visit our website located in:</p>
+                <a href="https://raulfarce01.github.io/challenge-cloudFramework/" class="text-sky-600 hover:underline ml-10 mb-2">Github Pages</a>
+                <a href="https://challengecloudframework.000webhostapp.com/challenge/" class="text-sky-600 hover:underline ml-10">000webhostapp</a>
+            </div>
+        </section>
+        <hr class="border border-black my-10">
+        <section>
+            <h2 class="font-bold">Deployment</h2>
+            <p class="mb-4">You have some ways to deploy the static website</p>
+
+            <div id="vscode" class="ml-10 mb-3">
+                <h3 class="font-bold">Visual Studio Code</h3>
+                <p>If you are using Visual Studio Code, you can install the extension Live Server.</p>
+                <p>After that, you only need to open the index.html file and right click. Click at "Open with live server" and instantly it will open your browser and show you the site.</p>
+            </div>
+
+            <div id="xampp" class="ml-10 mb-7">
+                <h3 class="font-bold">XAMPP</h3>
+                <p>Open you XAMPP application, start your apache service, and navigate with your browser to the root of the apache server in the htdocs folder. It's important to put the project in thhe htdocs folder, inside the xampp installation folder to avoid some server connection problems.</p>
+            </div>
+        </section>
+        <hr class="border border-black my-10">
+        <section>
+            <h2 class="font-bold">Enjoy!</h2>
+            If you could visit the page, just enjoy. Thank you ;)
+        </section>
+    </main>
+
+    <footer class="flex justify-around items-center w-full h-20 bg-cyan-500 fixed bottom-0">
+        <a href="#" class="font-bold hover:underline">Documentation</a>
+        <p class="">Raúl Fernández</p>
+    </footer>
+
+</body>
+</html>
